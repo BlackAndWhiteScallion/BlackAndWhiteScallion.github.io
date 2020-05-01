@@ -46,9 +46,16 @@ img {
 }
 /*------------------------------ HEADER ------------------------------*/
 #header {
-	background-color: #eee;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 46px;
+	z-index: 100;
+	position:fixed;
+	background-color: #303643 !important;
 	border-bottom: 1px solid #e6e6e6;
-	padding: 1px 0;
+	transition: box-shadow .3s, -webkit-box-shadow .3s;
+	padding: 0 1rem;
 }
 #header > div, #footer > div {
 	width: 920px;
@@ -74,7 +81,7 @@ img {
 #navigation {
 	display: inline-block;
 	list-style: none;
-	line-height: 70px;
+	line-height: 50px;
 	margin: 0;
 	padding: 0;
 }
@@ -90,13 +97,13 @@ img {
 	text-align: center;
 }
 #navigation li a {
-	color: #818181;
+	color: #b9b8b8;
 	font-size: 25px;
 	line-height: 25px;
 	text-decoration: none;
 }
 #navigation li a:hover {
-	color: #000;
+	color: rgb(255, 255, 255);
 }
 #navigation li.active a {
 	color: #f99600;
@@ -110,7 +117,9 @@ img {
 #adbox > div {
 	width: 800px;
 	margin: 0 auto;
-	padding: 0 80px;
+	padding-top: 20px;
+	padding-left: 80px;
+	padding-right: 80px;
 }
 #adbox > div img {
 	float: right;
@@ -149,7 +158,7 @@ img {
 	min-height: 510px;
 	width: 880px;
 	margin: 0 auto;
-	padding: 54px 40px;
+	padding: 70px 40px;
 }
 h1 {
 	color: #3e3e3e;
