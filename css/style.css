@@ -108,47 +108,47 @@ img {
 #navigation li.active a {
 	color: #f99600;
 }
-#box {
+#box1 {
 	height: 380px;
 	padding-top: 60px;
 	padding-bottom: 20px;
 }
-#box > div {
+#box1 > div {
 	width: 800px;
 	margin: 0 auto;
 	padding-top: 20px;
 	padding-left: 80px;
 	padding-right: 80px;
 }
-#box > div img {
+#box1 > div img {
 	float: right;
 	margin-left: 60px;
 }
-#box h1, #box h2 {
+#box1 h1, #box1 h2 {
 	color: #2c2c2c;
 	font-size: 60px;
 	line-height: 60px;
 	margin: 0;
 	text-transform: uppercase;
 }
-#box h2 {
+#box1 h2 {
 	font-size: 30px;
 	line-height: 36px;
 	text-transform: none;
 }
-#box p {
+#box1 p {
 	font-size: 16px;
 	line-height: 24px;
 	margin: 0;
 }
-#box p span {
+#box1 p span {
 	display: block;
 	font-size: 12px;
 	width: 360px;
 	padding: 24px 0;
 	text-align: center;
 }
-#box p span b {
+#box1 p span b {
 	font-weight: normal;
 	display: block;
 }
